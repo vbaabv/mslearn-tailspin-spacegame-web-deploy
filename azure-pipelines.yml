@@ -81,7 +81,5 @@ stages:
           steps:
           - download: current
             artifact: drop
-          - task: script
-            displayName: 'Azure App Service Deploy: website'
-            echo "76jhafjuhabfasf"
-
+            - script: 'echo 'asfasfasfasfasf'
+              displayName: 'echo build info'
