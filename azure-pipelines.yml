@@ -72,8 +72,6 @@ stages:
   - job: Deploy
     pool:
       vmImage: 'ubuntu-18.04'
-    variables:
-    - group: Release
     steps:
     - script: 'echo "DEploying the archive"'
       displayName: 'Deploy'
